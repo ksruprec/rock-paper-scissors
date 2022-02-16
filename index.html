@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Rock, Paper, Scissors Game</title>
+</head>
+<body>
+    <header>
+        <h1>Rock, Paper, Scissors</h1>
+    </header>
+    <section class="game">
+        
+        <div class="action-container">
+            <div id="user-move" class="move">
+                <img class="hand" src="images/fist-left.png" alt="computer-hand">
+            </div>
+            <div id="countdown">3</div>
+            <div id="computer-move" class="move">
+                <img class="hand" src="images/fist-right.png" alt="user-hand">
+            </div>
+        </div>
+        <div class="result"></div>
+        <div class="option-container">
+            <h2>Choose your move</h2>
+            <button id="rock-option" class="option btn">Rock</button>
+            <button id="paper-option" class="option btn">Paper</button>
+            <button id="scissors-option" class="option btn">Scissors</button>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
